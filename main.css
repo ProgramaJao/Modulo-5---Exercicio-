@@ -1,0 +1,125 @@
+
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+    background-color: #FFF;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* CABEÇALHO */
+
+.logo img {
+    height: 150px;
+}
+
+header{
+    padding: 40px; 
+}
+
+header > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    display: inline-block;
+    transition: 2s;
+}
+
+header div ul{
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.contato button {
+    padding: 14px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    background-color: orangered;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+div button:hover{
+    background-color: rgb(255, 0, 0);
+    transition: 2s;
+    box-shadow: 0px 0px 8px rgb(255, 0, 0);
+}
+
+header a:hover{
+    color: orangered;
+}
+
+.topo-do-site{
+    padding: 40px;
+}
+
+.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    font-size: 42px;
+    line-height: 100px;
+}
+
+.topo-do-site p{
+    line-height: 20px;
+    margin: 40px 0px;
+}
+
+.formulario input{
+    display: flex;
+    margin-bottom: 8px;
+    width: 320px;
+    padding: 8px;
+    
+}
+
+.formulario textarea{
+    display: block;
+    margin-bottom: 8px;
+    resize: none;
+    width: 319px;
+    padding: 8px
+
+}
+
+.formulario button{
+    padding: 14px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: orangered;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    margin: 0 80px;
+}
